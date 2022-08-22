@@ -1,0 +1,92 @@
+{
+  "paper": {
+    "link": "https://api.papermc.io/v2/projects/paper/versions/1.19/builds/77/downloads/paper-1.19-77.jar",
+    "to": "./paper.jar"
+  },
+  "mv": {
+    "core": {
+      "link": "https://dev.bukkit.org/projects/multiverse-core/files/3462546/download",
+      "to": "./plugins/Multiverse-Core-4.3.1.jar"
+    },
+    "nether-portals": {
+      "link": "https://dev.bukkit.org/projects/multiverse-netherportals/files/3687506/download",
+      "to": "./plugins/Multiverse-NetherPortals-4.2.2.jar"
+    },
+    "portals": {
+      "link": "https://dev.bukkit.org/projects/multiverse-portals/files/3113114/download",
+      "to": "./plugins/Multiverse-Portals-4.2.1.jar"
+    },
+    "inventory": {
+      "link": "https://dev.bukkit.org/projects/multiverse-inventories/files/3687469/download",
+      "to": "./plugins/Multiverse-Inventories-4.2.3.jar"
+    }
+  },
+  "worlds": {
+    "world-19": {
+      "path": "/home/minecraft/server/installer/world_19",
+      "to": "./world_19"
+    },
+    "world-19-nether": {
+      "path": "/home/minecraft/server/installer/world_19_nether",
+      "to": "./world_19_nether"
+    },
+    "world-19-end": {
+      "path": "/home/minecraft/server/installer/world_19_the_end",
+      "to": "world_19_the_end"
+    },
+    "world": {
+      "path": "/home/minecraft/server/installer/world",
+      "to": "./world"
+    },
+    "world-nether": {
+      "path": "/home/minecraft/server/installer/world_nether",
+      "to": "./world_nether"
+    },
+    "world-end": {
+      "path": "/home/minecraft/server/installer/world_the_end",
+      "to": "world_the_end"
+    }
+  },
+  "configs": {
+    "eula": {
+      "path": "/home/minecraft/server/installer/eula.txt",
+      "to": "./eula.txt"
+    },
+    "bukkit": {
+      "path": "/home/minecraft/server/installer/bukkit.yml",
+      "to": "./bukkit.yml"
+    },
+    "spigot": {
+      "path": "/home/minecraft/server/installer/spigot.yml",
+      "to": "./spigot.yml"
+    },
+    "server-properties": {
+      "path": "/home/minecraft/server/installer/server.properties",
+      "to": "./server.properties"
+    },
+    "paper-world": {
+      "path": "/home/minecraft/server/installer/paper-world-defaults.yml",
+      "to": "./config/paper-world-defaults.yml"
+    },
+    "Chunky": {
+      "path": "/home/minecraft/server/installer/Chunky",
+      "to": "./plugins"
+    },
+    "Multiverse-Core": {
+      "path": "/home/minecraft/server/installer/Multiverse-Core",
+      "to": "./plugins"
+    },
+    "Multiverse-Inventories": {
+      "path": "/home/minecraft/server/installer/Multiverse-Inventories",
+      "to": "./plugins"
+    },
+    "Multiverse-NetherPortals": {
+      "path": "/home/minecraft/server/installer/Multiverse-NetherPortals",
+      "to": "./plugins"
+    },
+    "Multiverse-Portals": {
+      "path": "/home/minecraft/server/installer/Multiverse-Portals",
+      "to": "./plugins"
+    }
+  }
+}

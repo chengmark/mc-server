@@ -1,0 +1,13 @@
+# Multiverse-Inventories Groups
+
+groups:
+  default:
+    worlds:
+    - world
+    - world_the_end
+    - world_nether
+    - world_19
+    - world_19_the_end
+    - world_19_nether
+    shares:
+    - all

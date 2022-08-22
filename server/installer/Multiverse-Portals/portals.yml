@@ -1,0 +1,21 @@
+portals:
+  19_to_18:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: markc2
+    location: 38.0,70.0,33.0:38.0,73.0,36.0
+    world: world_19
+    destination: world
+  18_to_19:
+    entryfee:
+      amount: 0.0
+    safeteleport: true
+    teleportnonplayers: false
+    handlerscript: ''
+    owner: markc2
+    location: 19.0,67.0,-17.0:22.0,70.0,-17.0
+    world: world
+    destination: world_19

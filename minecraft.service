@@ -1,0 +1,21 @@
+[Unit]
+Description=Minecraft Server
+After=network.target
+
+[Service]
+Type=simple
+Restart=on-failure
+Sockets=minecraft.socket
+StandardInput=socket
+StandardOutput=journal
+StandardError=journal
+User=s1155144832
+Nice=5
+KillMode=none
+SuccessExitStatus=0 1
+WorkingDirectory=/home/s1155144832/server
+ReadWriteDirectories=/home/s1155144832/server
+ExecStart=/opt/jdk-17/bin/java -Xmx8000M -Xms1024M -jar server.jar nogui
+
+[Install]
+WantedBy=multi-user.target
